@@ -42,7 +42,7 @@ public class EmailGeneratorService {
         );
 
 
-        //Do request and get response
+        //Do request and get response 
 
         String reponse = webClient.post()
                 .uri(geminiApiUrl +  "?key=" + geminiApiKey)
