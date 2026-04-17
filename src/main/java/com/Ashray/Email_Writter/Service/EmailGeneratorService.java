@@ -77,7 +77,7 @@ public class EmailGeneratorService {
         } catch (Exception e) {
 
 
-            return "Error porcessing message " + e.getMessage();
+            return "Error porcessing message " + e.getMessage();git
 
         }
     }
